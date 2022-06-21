@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 150vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.entreprise {
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+}
+
+.secretaire {
+    height: 70vh;
+    object-fit: cover;
+    position: relative;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.yellowtext {
+    font-size: 20px;
+    font-weight: 500;
+    color: #737373;
+}
+
+header {
+    background-image: linear-gradient(to right bottom, #fbe38f, #f9df81, #f6db74, #f4d666, #f1d257);
+    overflow: hidden;
+}
+
+.headerbouton {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.hbouton1 {
+    --bs-btn-bg: #00A0C1;
+    --bs-btn-border-color: #00A0C1;
+    --bs-btn-hover-border-color: #00A0C1;
+    --bs-btn-hover-bg: none;
+    --bs-btn-active-bg: #00A0C1;
+}
+
+.hbouton2 {
+    border-color: #00A0C1;
+    color: #00A0C1;
+    --bs-btn-hover-bg: #00A0C1;
+    --bs-btn-active-bg: #00A0C1;
+    --bs-btn-active-border-color: #00A0C1;
+    --bs-btn-hover-border-color: #00A0C1;
+}
+
+.shadowblue {
+    background-color: #00A0C1 !important;
+    color: white;
+}
+
+.shadow {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.titlewhyus {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.pwhyus {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.greybg {
+    background-color: #F3F3F3;
+}
+
+.card {
+    border: none;
+    --bs-card-border-radius: none;
+    --bs-card-spacer-y: none;
+}
+
+.card-img-bottom {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #737373;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.semibold {
+    font-size: 14px;
+    font-weight: 600;
+    color: #737373;
+}
+
+.boldsemi {
+    font-weight: 600;
+}
+
+.card {
+    background-color: white;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+}
+
+.bureau {
+    object-fit: cover;
+}
+
+.bggreen {
+    background-color: #16697A;
+    color: white;
+    z-index: 100 !important;
+}
+
+.subscribe {
+    background-color: #FFA62B;
+    color: white;
+    font-size: 14px;
+}
+
+.mail {
+    color: #737373;
+    font-size: 14px;
+}
+
+.tittlesub {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.titletouch {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.touchtext {
+    font-weight: 700;
+    font-size: 14px;
+    color: #737373;
+}
+
+.bgwhite {
+    background-color: white;
+}
+
+.touchtextcard {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+h4 {
+    color: #252B42;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bgblue {
+    background-color: #252B42;
+    color: white;
+}
+
+.getintouch {
+    height: 400px;
+}
+
+.consulting {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contactus {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.reseaux {
+    height: 25px;
+}
+
+.separator {
+    height: 70px;
+    background-color: #252B42;
+    transform: translateY(-50px);
+    z-index: 1;
+}
+
+.newsletter {
+    z-index: 33333333 !important;
+}
+
+
+
+@media screen and (max-width:992px) {
+    .getintouch {
+        height: auto;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    /* header {
+        height: 120vh;
+    } */
+
+    .secretaire {
+        height: 68vh;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .navbar-expand-md {
+        background-color: rgba(255, 255, 255, 0) !important;
+    }
+}
